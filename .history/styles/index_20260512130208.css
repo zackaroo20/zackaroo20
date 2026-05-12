@@ -9,18 +9,12 @@ header {
   background-color: #084c8b;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   margin-bottom: 12px;
 }
-#cap {
-  display: flex;
 
-  align-items: center;
-  margin-left: 12px b;
-}
-
-section {
+section{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
@@ -35,7 +29,7 @@ h3 a {
   text-decoration: none;
   color: inherit;
 }
-button {
+ button {
   height: 20vh;
   width: 100%;
-}
+ }
