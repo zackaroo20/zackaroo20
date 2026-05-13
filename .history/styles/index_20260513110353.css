@@ -1,11 +1,18 @@
 @page {
   size: A4;
+  margin: 1cm;
 }
 @media screen and (min-width: 700px) {
-  body {
-    max-width: 768px;
-    margin: 0 auto;
+  body,
+  head {
+    
+    .container {
     padding: 0 1rem;
+    margin: 0 auto;
+  }
+    /* custom styles */
+
+    max-width: 768px;
   }
 }
 
@@ -23,7 +30,7 @@ header {
   display: flex;
 
   justify-content: center;
-  margin-left: 12px;
+  margin-left: 12px b;  
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
@@ -32,9 +39,11 @@ p {
 }
 
 section {
+    
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
+  
 }
 img {
   background-color: transparent;
@@ -48,10 +57,13 @@ h3 a {
   color: inherit;
 }
 button {
+   
+    
   height: 20vh;
   width: 100%;
 }
 .container {
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }

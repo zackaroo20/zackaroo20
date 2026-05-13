@@ -1,12 +1,11 @@
 @page {
   size: A4;
+  margin: 1cm;
 }
-@media screen and (min-width: 700px) {
-  body {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
+@media screen and (min-width: 900px) {
+ section {
+ /* custom styles */
+ }
 }
 
 header {
@@ -22,13 +21,8 @@ header {
 #cap {
   display: flex;
 
-  justify-content: center;
-  margin-left: 12px;
-}
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1px;
-  font-size: 25px;
+  align-items: center;
+  margin-left: 12px b;
 }
 
 section {
@@ -42,7 +36,6 @@ img {
   width: 20px;
   height: 18px;
 }
-
 h3 a {
   text-decoration: none;
   color: inherit;
@@ -50,8 +43,4 @@ h3 a {
 button {
   height: 20vh;
   width: 100%;
-}
-.container {
-  width: 100%;
-  margin: 0 auto;
 }
