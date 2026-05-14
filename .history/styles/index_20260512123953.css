@@ -1,0 +1,18 @@
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  background-color: #084c8b;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+img {
+  background-color: transparent;
+  width: 20px;
+  height: 18px;
+}

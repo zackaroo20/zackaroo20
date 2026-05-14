@@ -1,0 +1,36 @@
+@page {
+  size: A4;
+  margin: 1cm;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  background-color: #084c8b;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section{
+    grid-template-columns:;
+    
+
+
+
+
+
+
+}
+img {
+  background-color: transparent;
+  width: 20px;
+  height: 18px;
+}
+h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+ button {
+  height: 30vh;
+ }

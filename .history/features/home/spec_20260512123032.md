@@ -1,0 +1,26 @@
+# Feature: Home Page
+
+## Goal
+
+implement `index.html`
+
+## Designs
+
+![target layout](../../assets/specs/portoflio-draft.png)
+
+## Work
+
+**Describe the UI/UX clearly and specifically**
+"Details" are at the top and theres three main buttons that go to other pages about me and my "skills", fourth button is to balance the layout and maybe a cool little page along with it
+**What elements exist? What container elements exist?**
+header for the "details", body for the buttons and maybe a footer for the pic of my face.
+
+**How do users interact? What is the hover behavior?**
+They read the top and decide what they want to see first by clicking the buttons.
+
+## Deliverables
+
+**What does “done” look like?**
+
+Works on mobile, desktop and when stretching the tab wide and long. Loads fast when refreshed.
+**Be concrete and testable**
