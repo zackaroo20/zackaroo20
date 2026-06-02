@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #084c8b;
+
+}
+.divider {
+  border: 0;
+  height: 4px;
+  background-color: #1f4e79;
+  width: 100%;
+  margin-top: 12px;
+}

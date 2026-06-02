@@ -1,0 +1,41 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #084c8b;
+}
+button {
+  /* auto complete */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  background-color: #084c8b;
+
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #084c8b;
+}
+img {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 20rem;
+  margin: auto;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #092846;
+}
+#cat {
+  width: 97%;
+  min-height: 25vh;
+  margin: 0 auto;
+}
